@@ -10,6 +10,14 @@ public class DeliveryPartner {
         this.numberOfOrders = 0;
     }
 
+    @Override
+    public String toString() {
+        return "DeliveryPartner{" +
+                "id='" + id + '\'' +
+                ", numberOfOrders=" + numberOfOrders +
+                '}';
+    }
+
     public String getId() {
         return id;
     }
